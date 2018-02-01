@@ -122,6 +122,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Renderer.hpp" />
+    <ClInclude Include="src\shader.hpp" />
+    <ClInclude Include="src\SimulationLoader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Renderer.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
