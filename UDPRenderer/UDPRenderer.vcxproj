@@ -122,13 +122,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Drawable.cpp" />
+    <ClCompile Include="src\Modeling\DrawableMesh.cpp" />
+    <ClCompile Include="src\Modeling\DrawLine.cpp" />
+    <ClCompile Include="src\Modeling\LoadableModel.cpp" />
+    <ClCompile Include="src\Modeling\Mesh.cpp" />
+    <ClCompile Include="src\Modeling\SkyBox.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\shader.cpp" />
+    <ClCompile Include="src\TexturePacks\EyeballTextPack.cpp" />
+    <ClCompile Include="src\TexturePacks\LightUniColorTextPack.cpp" />
+    <ClCompile Include="src\TexturePacks\LineUniColorTextPack.cpp" />
+    <ClCompile Include="src\TexturePacks\RefractTextPack.cpp" />
+    <ClCompile Include="src\TexturePacks\SkyBoxTextPack.cpp" />
+    <ClCompile Include="src\TexturePacks\UniColorTextPack.cpp" />
+    <ClCompile Include="src\Textures\CubeMap.cpp" />
+    <ClCompile Include="src\Textures\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Camera.hpp" />
+    <ClInclude Include="src\Drawable.hpp" />
+    <ClInclude Include="src\Modeling\DrawableMesh.hpp" />
+    <ClInclude Include="src\Modeling\DrawLine.hpp" />
+    <ClInclude Include="src\Modeling\LoadableModel.hpp" />
+    <ClInclude Include="src\Modeling\Mesh.hpp" />
+    <ClInclude Include="src\Modeling\SkyBox.hpp" />
     <ClInclude Include="src\Renderer.hpp" />
     <ClInclude Include="src\shader.hpp" />
     <ClInclude Include="src\SimulationLoader.hpp" />
+    <ClInclude Include="src\TexturePacks\EyeballTextPack.hpp" />
+    <ClInclude Include="src\TexturePacks\LightUniColorTextpack.hpp" />
+    <ClInclude Include="src\TexturePacks\LineUniColorTextPack.hpp" />
+    <ClInclude Include="src\TexturePacks\RefractTextPack.hpp" />
+    <ClInclude Include="src\TexturePacks\ShaderMaterial.hpp" />
+    <ClInclude Include="src\TexturePacks\SkyBoxTextPack.hpp" />
+    <ClInclude Include="src\TexturePacks\TexturePack.hpp" />
+    <ClInclude Include="src\TexturePacks\UniColorTextPack.hpp" />
+    <ClInclude Include="src\Textures\CubeMap.hpp" />
+    <ClInclude Include="src\Textures\Texture.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Renderer.inl" />
